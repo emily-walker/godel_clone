@@ -1,5 +1,92 @@
-p {
-  text-decoration: underline;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #75c8d2;
+}
+
+.content {
+  width: 100%;
+  max-width: 1220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header .content {
+  position: relative;
+  text-align: right;
+}
+
+.logo-container {
+  float: left;
+  width: 160px;
+  padding: 23px 0 32px;
+  margin: 0 35px 0 0;
+  overflow: hidden;
+}
+
+.header .navbar {
+  padding: 45px 0 23px;
+  z-index: 2;
+}
+
+.nav-item {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #3c4a61;
+  padding: 0px;
+  margin: 0 18px 0 14px;
+  display: inline;
+}
+
+.content a:not(.button) {
+  border-bottom: none;
+}
+
+.content a:not(.button):visited {
+  color: inherit;
+}
+
+body {
+  font: 16px/1 Helsinki,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 1;
+  font-family: Nudista, sans-serif;
+  color: #3c4a61;
+  font-weight: 200;
+  height: 100%;
+}
+
+.page-content {
+  position: relative;
+  padding: 110px 0 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 431px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+}
+
+video {
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,38 @@
-p {
-  text-decoration: underline;
+@import "_header";
+
+body {
+    font: 16px/1 Helsinki,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Nudista, sans-serif;
+    color: #3c4a61;
+    font-weight: 200;
+    height: 100%;
+}
+
+.page-content {
+      position: relative;
+      padding: 110px 0 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 431px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+  }
+
+video {
+  object-fit: contain;
 }

@@ -1,17 +1,66 @@
 @import "_header";
+@import '_homebanner';
+@import '_location';
+@import '_footer';
+@import '_firsttileblock';
+@import '_jobs';
+@import '_benefits';
+@import '_secondtileblock';
+@import '_partners';
+@import '_contact';
+@import '_charity';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400';
 
 body {
-    font: 16px/1 Helsinki,sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: 200;
     font-stretch: normal;
     font-size: 16px;
     line-height: 1;
-    font-family: Nudista, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #3c4a61;
     font-weight: 200;
     height: 100%;
+}
+
+.first-tile-block h2, .second-tile-block h2 {
+    margin: 0 0 27px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.first-tile-block p, .second-tile-block p {
+    margin: 0 0 31px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.first-tile-block .top .button, .second-tile-block .button {
+    background: inherit;
+    padding: 24px 21px 24px 21px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8dc63f;
+    border: 1px solid #8dc63f;
+    border-radius: 0;
+}
+
+.first-tile-block .top .button .fa , .second-tile-block .button .fa{
+  margin-left: 11px;
+}
+
+.columns {
+  margin: 0;
+}
+
+.columns:last-child {
+    margin-bottom: 0px;
 }
 
 .page-content {
@@ -35,4 +84,12 @@ a {
 
 video {
   object-fit: contain;
+}
+
+.content {
+    width: 100%;
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
 }

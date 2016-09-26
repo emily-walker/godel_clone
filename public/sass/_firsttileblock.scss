@@ -1,0 +1,95 @@
+.first-tile-block .top {
+    background: #f4f4f4;
+}
+
+.first-tile-block .bottom {
+    background: #fff;
+}
+
+.first-tile-block .top .column {
+    padding: 50px 6% 49px 0;
+    z-index: 1;
+}
+
+.first-tile-block .bottom .quality-over-revenue {
+    padding: 70px 0 32px 6.3%;
+}
+
+.first-tile-block .columns:last-child,
+.first-tile-block .content:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.columns {
+    margin: 0;
+}
+
+.first-tile-block .column:nth-of-type(2n) {
+    width: 52.54%;
+}
+
+.first-tile-block .column {
+    position: relative;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-size: contain;
+    overflow: hidden;
+    margin: 0;
+}
+
+.first-tile-block .why-godel h2 {
+    color: #69707a;
+}
+
+.first-tile-block .meet-the-team h2 {
+    color: #fff
+}
+
+.first-tile-block .meet-the-team p {
+  padding-right: 200px;
+}
+
+.first-tile-block .top .column.meet-the-team {
+    padding-left: 5.8%;
+    padding-right: 6.3%;
+    color: #fff;
+    background-image: url("http://careers.godeltech.com/wp-content/uploads/2016/04/admin-ajax.jpg");
+    background-position: calc(50% + 100.104px) 0px;
+}
+
+.first-tile-block .top .column.meet-the-team::before {
+    content: '';
+    display: block;
+    width: 65%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #3c4a61;
+    z-index: -1;
+}
+
+
+
+.first-tile-block .top .button:hover, .first-tile-block .top .column.meet-the-team .button:hover {
+  background: #8dc63f;
+  color: #fff;
+}
+
+.first-tile-block .top .column.meet-the-team .button {
+  background: #3c4a61;
+}
+
+.first-tile-block .bottom .meeting-picture {
+    background-image: url("http://careers.godeltech.com/wp-content/uploads/2015/10/img-1.jpg");
+}
+
+.first-tile-block .bottom .quality-over-revenue h2 {
+    color: #3c4a61;
+    font-size: 28px;
+}
+
+.first-tile-block .bottom .meeting-picture img {
+    visibility: hidden;
+}

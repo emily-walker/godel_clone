@@ -1,0 +1,55 @@
+.contact {
+    padding: 59px 0 67px;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #d6dbdc;
+    background: #fff;
+}
+
+.contact h2 {
+    margin: 0 0 79px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    max-width: none;
+    color: #3c4a61;
+    text-transform: uppercase;
+}
+
+.contact .location-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.contact .locations {
+  width: 100%;
+  text-align: left;
+}
+
+.contact p, .contact a {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #90d2da;
+    text-transform: uppercase;
+}
+
+.contact .content p:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.contact .fa {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  color: #90d2da;;
+}
+
+.contact .location-container:nth-of-type(1), .contact .location-container:nth-of-type(3) {
+    margin-right: 6%;
+}
+
+.contact .location-container:nth-of-type(2) {
+    margin-right: 16%;
+}

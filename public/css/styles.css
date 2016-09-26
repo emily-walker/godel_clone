@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400";
 .header {
   position: fixed;
   top: 0;
@@ -5,14 +6,7 @@
   width: 100%;
   background: #fff;
   border-top: 1px solid #75c8d2;
-}
-
-.content {
-  width: 100%;
-  max-width: 1220px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+  z-index: 2;
 }
 
 .header .content {
@@ -52,18 +46,823 @@
   color: inherit;
 }
 
+.home-banner {
+  position: relative;
+  background: #3c4a61;
+  overflow: hidden;
+}
+
+.home-banner .home-banner-video {
+  width: 100%;
+  min-height: 100%;
+  object-fit: none;
+}
+
+.home-banner .content {
+  position: absolute;
+  float: left;
+  top: 12%;
+  left: 6.5%;
+  padding: 11.9% 0 15.65%;
+  bottom: 0;
+}
+
+.content h2 {
+  max-width: 60%;
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 52px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  word-spacing: 3.4px;
+  color: #fff;
+}
+
+.vacancy-section {
+  margin-bottom: 30px;
+}
+
+.vacancy-section p {
+  letter-spacing: 0.5px;
+  color: #75c8d2;
+}
+
+.vacancy-section p:not(:last-child) {
+  margin: 0;
+}
+
+.vacancy-section h3 {
+  color: #fff;
+  display: inline;
+  margin-bottom: 50px;
+}
+
+h3.green {
+  color: #8dc63f;
+  font-weight: bold;
+}
+
+.vacancy-section h3,
+.vacancy-section p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content input {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content .top input {
+  display: block;
+  border: none;
+  width: 379px;
+  padding: 17px 30px;
+}
+
+.content .top .button {
+  font-size: 24px;
+  line-height: 24px;
+  background: #8dc63f;
+  height: auto;
+  width: 50px;
+  border-radius: 0;
+}
+
+.content .button.scroll-down {
+  position: absolute;
+  left: 46.5%;
+  bottom: 50px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.content .control.has-addons .button:last-child {
+  border-radius: 0;
+}
+
+.content .button .icon:first-child,
+.content .button .icon:last-child {
+  margin: 0;
+}
+
+.content .bottom .button {
+  background: #75c8d2;
+  width: 54px;
+  height: 54px;
+}
+
+.content .bottom {
+  position: absolute;
+  right: -15px;
+  bottom: 48px;
+}
+
+.content .bottom input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.content .bottom input::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.content .bottom input {
+  width: auto;
+  cursor: pointer;
+  width: 138px;
+  padding: 16px 20px;
+  border: 1px solid #75c8d2;
+  border-right: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.location {
+  padding: 0 0 45px;
+  background: url("http://careers.godeltech.com/wp-content/themes/godeltechnologies/img/locations-bg.jpg") no-repeat center top;
+  background-size: cover;
+  font-weight: 400;
+}
+
+.location .content {
+  text-align: center;
+}
+
+.location h2 {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 6px 38px 0;
+  margin: 0 0 46px;
+  font-size: 24px;
+  line-height: 58px;
+  font-weight: 400;
+  color: #fff;
+  background: #3c4a61;
+}
+
+.location h3 {
+  margin: 0 0 12px;
+  font-size: 51px;
+  line-height: 67px;
+  color: #75c8d2;
+  border-bottom: 1px solid #3c4a61;
+  text-transform: uppercase;
+}
+
+.location p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8dc63f;
+}
+
+.location-list-item {
+  display: inline-block;
+  margin: 0 4.1%;
+}
+
+.location-list-item:hover h3, .location-list-item:hover p, .location-list-item:hover .fa {
+  color: #3c4a61;
+}
+
+.location-list-item .fa {
+  display: inline;
+  color: #8dc63f;
+}
+
+.footer {
+  color: #fff;
+  margin-top: -431px;
+  letter-spacing: 0.8px;
+  background: #212834;
+  border-top: 1px solid #404650;
+  padding: 0;
+}
+
+.footer .column {
+  display: inline-block;
+  min-height: 430px;
+  padding: 83px 0 35px;
+  border-right: 1px solid #404650;
+  vertical-align: top;
+}
+
+.footer .column .contact-div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer .column .contact-div:first-of-type {
+  width: 43.6%;
+}
+
+.footer .fa,
+.footer h3 {
+  color: #75c8d2;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer .column:nth-child(1) {
+  padding-right: 0;
+}
+
+.footer .column:nth-child(2) {
+  padding-left: 6.01%;
+  padding-right: 6.01%;
+}
+
+.footer .column:nth-child(3) {
+  border: none;
+  padding-left: 3.72%;
+}
+
+.first-tile-block .top {
+  background: #f4f4f4;
+}
+
+.first-tile-block .bottom {
+  background: #fff;
+}
+
+.first-tile-block .top .column {
+  padding: 50px 6% 49px 0;
+  z-index: 1;
+}
+
+.first-tile-block .bottom .quality-over-revenue {
+  padding: 70px 0 32px 6.3%;
+}
+
+.first-tile-block .columns:last-child,
+.first-tile-block .content:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.columns {
+  margin: 0;
+}
+
+.first-tile-block .column:nth-of-type(2n) {
+  width: 52.54%;
+}
+
+.first-tile-block .column {
+  position: relative;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-size: contain;
+  overflow: hidden;
+  margin: 0;
+}
+
+.first-tile-block .why-godel h2 {
+  color: #69707a;
+}
+
+.first-tile-block .meet-the-team h2 {
+  color: #fff;
+}
+
+.first-tile-block .meet-the-team p {
+  padding-right: 200px;
+}
+
+.first-tile-block .top .column.meet-the-team {
+  padding-left: 5.8%;
+  padding-right: 6.3%;
+  color: #fff;
+  background-image: url("http://careers.godeltech.com/wp-content/uploads/2016/04/admin-ajax.jpg");
+  background-position: calc(50% + 100.104px) 0px;
+}
+
+.first-tile-block .top .column.meet-the-team::before {
+  content: '';
+  display: block;
+  width: 65%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #3c4a61;
+  z-index: -1;
+}
+
+.first-tile-block .top .button:hover, .first-tile-block .top .column.meet-the-team .button:hover {
+  background: #8dc63f;
+  color: #fff;
+}
+
+.first-tile-block .top .column.meet-the-team .button {
+  background: #3c4a61;
+}
+
+.first-tile-block .bottom .meeting-picture {
+  background-image: url("http://careers.godeltech.com/wp-content/uploads/2015/10/img-1.jpg");
+}
+
+.first-tile-block .bottom .quality-over-revenue h2 {
+  color: #3c4a61;
+  font-size: 28px;
+}
+
+.first-tile-block .bottom .meeting-picture img {
+  visibility: hidden;
+}
+
+.jobs {
+  padding: 48px 0 72px;
+  background: #3c4a61;
+  overflow: hidden;
+}
+
+.jobs .latest-jobs {
+  width: 220px;
+  height: 170px;
+  padding: 20px 25px;
+  float: left;
+  text-align: center;
+  background: #8dc63f;
+}
+
+.jobs .latest-jobs h3 {
+  margin: 0 0 15px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.jobs .latest-jobs .fa,
+.jobs .latest-jobs p {
+  color: #fff;
+}
+
+.jobs .latest-jobs .fa {
+  margin-top: 17px;
+}
+
+.jobs-list-container {
+  padding: 0 0 0 20px;
+  width: 81%;
+  position: relative;
+  vertical-align: top;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.jobs .job {
+  min-height: 170px;
+  width: 380px;
+  padding: 26px 30px 20px;
+  margin: 0 20px 0 0;
+  height: 170px;
+  position: relative;
+  float: left;
+  background: #f4f4f4;
+}
+
+.jobs-list::before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #8dc63f;
+}
+
+.jobs .job h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #3c4a61;
+  text-transform: uppercase;
+}
+
+.jobs .job h4 {
+  font-size: 16px;
+  margin: 0 0 6px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #75c8d2;
+}
+
+.jobs .job p {
+  font-size: 14px;
+}
+
+.jobs span {
+  color: #8dc63f;
+}
+
+.benefits {
+  padding: 58px 0 68px;
+  background: #fff;
+}
+
+.benefits .content {
+  margin-bottom: 0;
+}
+
+.benefits-text {
+  display: inline-block;
+  width: calc(45.55% + 999px);
+  margin: 0 0 0 -999px;
+  padding: 37px 7.5% 41px 999px;
+  background: #75c8d2;
+  text-align: left;
+}
+
+.benefits-text h2 {
+  margin: 0 0 27px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.benefits-text p {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.content ul {
+  list-style: none;
+  margin: 0;
+}
+
+.content li + li {
+  margin: 0;
+}
+
+.benefits li {
+  position: relative;
+  display: inline-block;
+  padding: 90px 25px 56px;
+  border-top: 1px solid #d6dbdc;
+  border-right: 1px solid #d6dbdc;
+  flex-grow: 3;
+  -ms-flex-grow: 3;
+  -webkit-flex-grow: 3;
+  vertical-align: top;
+  text-align: center;
+  height: 285px;
+}
+
+.benefits li .fa {
+  margin-bottom: 20px;
+}
+
+.benefits li p {
+  min-height: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.benefits li:nth-child(10),
+.benefits li:nth-child(5) {
+  border-left: 1px solid #d6dbdc;
+}
+
+.benefits li:nth-child(2n+1) .list-content > * {
+  color: #75c8d2;
+}
+
+.banner {
+  text-align: center;
+  padding: 52px 0 55px;
+  position: relative;
+  border-top: 1px solid #d6dbdc;
+  border-bottom: 1px solid #d6dbdc;
+}
+
+.benefits .md {
+  width: 20.25%;
+}
+
+.benefits .xs {
+  width: 15.2%;
+}
+
+.benefits .sm {
+  width: 18.6%;
+}
+
+.benefits .lg {
+  width: 25.3%;
+}
+
+.banner h2 {
+  max-width: 75.6%;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3c4a61;
+}
+
+.banner h2::after {
+  background: #3c4a61;
+  content: '';
+  display: block;
+  width: 22.5%;
+  max-height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 500px;
+}
+
+.banner .fa-quote-left {
+  top: 21%;
+  left: 5%;
+  color: #75c8d2;
+}
+
+.banner .fa-quote-right {
+  bottom: 13%;
+  right: 27%;
+}
+
+.banner .fa {
+  position: absolute;
+}
+
+.second-tile-block {
+  color: #fff;
+}
+
+.second-tile-block .column {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-size: cover;
+}
+
+.second-tile-block .bottom .column-content {
+  margin: 0 20px 0 0;
+}
+
+.second-tile-block .top .column:nth-child(1) {
+  min-width: 53.5%;
+}
+
+.second-tile-block .bottom .column:nth-child(2) {
+  width: 49.9%;
+  padding-left: 4.9%;
+}
+
+.second-tile-block .top .column:nth-child(1) {
+  min-width: 53.5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.second-tile-block .top .column:nth-child(2) {
+  background-image: url("http://careers.godeltech.com/wp-content/uploads/2015/10/img-4.jpg");
+  column-width: 52.54%;
+  -moz-column-width: 52.54%;
+}
+
+.second-tile-block .top .column:nth-child(2) img {
+  display: hidden;
+}
+
+.second-tile-block .top .column {
+  padding: 50px 6% 92px 0;
+}
+
+.second-tile-block .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay.blue::before {
+  background: #3c4a61;
+}
+
+.overlay.aqua::before {
+  background: #75c8d2;
+}
+
+.second-tile-block .overlay:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.second-tile-block .overlay img {
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  filter: blur(5px);
+  -moz-filter: blur(5px);
+}
+
+.second-tile-block .column-content {
+  display: inline-block;
+  max-width: 552px;
+  min-height: 200px;
+  padding: 60px 0 45px;
+  position: relative;
+}
+
+.second-tile-block .top .column-content {
+  margin: 0 0 0 20px;
+  text-align: left;
+}
+
+.second-tile-block .bottom .column:nth-child(1) {
+  background-image: url("http://careers.godeltech.com/wp-content/uploads/2015/12/A-day-in-the-life-filming.jpg");
+}
+
+.partners {
+  padding: 54px 0 65px;
+  background: #fafafa;
+  border-bottom: 35px solid #3c4a61;
+  text-align: center;
+}
+
+.partners h2 {
+  margin: 0 0 37px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  max-width: none;
+  color: #3c4a61;
+}
+
+.contact {
+  padding: 59px 0 67px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #d6dbdc;
+  background: #fff;
+}
+
+.contact h2 {
+  margin: 0 0 79px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  max-width: none;
+  color: #3c4a61;
+  text-transform: uppercase;
+}
+
+.contact .location-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.contact .locations {
+  width: 100%;
+  text-align: left;
+}
+
+.contact p, .contact a {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #90d2da;
+  text-transform: uppercase;
+}
+
+.contact .content p:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.contact .fa {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  color: #90d2da;
+}
+
+.contact .location-container:nth-of-type(1), .contact .location-container:nth-of-type(3) {
+  margin-right: 6%;
+}
+
+.contact .location-container:nth-of-type(2) {
+  margin-right: 16%;
+}
+
+.charity {
+  padding-top: 114px;
+  padding-bottom: 87px;
+  background: #fff;
+}
+
+.charity .charity-info {
+  position: relative;
+  background: #eff0f0;
+  border-left: 21px solid #8dc63f;
+  text-align: center;
+}
+
+.charity .charity-info .charity-text {
+  padding: 46px 28.8% 60px 5%;
+}
+
+.charity-info h2 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 400;
+  max-width: none;
+  margin: 0 0 25px;
+  color: #3c4a61;
+}
+
+.charity-info .img-wrapper {
+  width: 23.6%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-  font: 16px/1 Helsinki,sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: 200;
   font-stretch: normal;
   font-size: 16px;
   line-height: 1;
-  font-family: Nudista, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #3c4a61;
   font-weight: 200;
   height: 100%;
+}
+
+.first-tile-block h2, .second-tile-block h2 {
+  margin: 0 0 27px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.first-tile-block p, .second-tile-block p {
+  margin: 0 0 31px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.first-tile-block .top .button, .second-tile-block .button {
+  background: inherit;
+  padding: 24px 21px 24px 21px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8dc63f;
+  border: 1px solid #8dc63f;
+  border-radius: 0;
+}
+
+.first-tile-block .top .button .fa, .second-tile-block .button .fa {
+  margin-left: 11px;
+}
+
+.columns {
+  margin: 0;
+}
+
+.columns:last-child {
+  margin-bottom: 0px;
 }
 
 .page-content {
@@ -87,6 +886,14 @@ a {
 
 video {
   object-fit: contain;
+}
+
+.content {
+  width: 100%;
+  max-width: 1220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

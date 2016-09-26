@@ -1,0 +1,51 @@
+.location {
+    padding: 0 0 45px;
+    background: url("http://careers.godeltech.com/wp-content/themes/godeltechnologies/img/locations-bg.jpg") no-repeat center top;
+    background-size: cover;
+    font-weight: 400;
+}
+
+.location .content {
+    text-align: center;
+}
+
+.location h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 6px 38px 0;
+    margin: 0 0 46px;
+    font-size: 24px;
+    line-height: 58px;
+    font-weight: 400;
+    color: #fff;
+    background: #3c4a61;
+}
+
+.location h3 {
+    margin: 0 0 12px;
+    font-size: 51px;
+    line-height: 67px;
+    color: #75c8d2;
+    border-bottom: 1px solid #3c4a61;
+    text-transform: uppercase;
+}
+
+.location p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8dc63f;
+}
+
+.location-list-item {
+    display: inline-block;
+    margin: 0 4.1%;
+}
+
+.location-list-item:hover h3, .location-list-item:hover p, .location-list-item:hover .fa, {
+    color: #3c4a61;
+}
+
+.location-list-item .fa {
+    display: inline;
+    color: #8dc63f;
+}

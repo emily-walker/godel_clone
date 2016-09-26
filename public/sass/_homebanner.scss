@@ -1,17 +1,132 @@
 .home-banner {
     position: relative;
-    overflow: hidden;
     background: #3c4a61;
+    overflow: hidden;
 }
 
-
 .home-banner .home-banner-video {
+    width: 100%;
+    min-height: 100%;
+    object-fit: none;
+}
+
+.home-banner .content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 135%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    float: left;
+    top: 12%;
+    left: 6.5%;
+    padding: 11.9% 0 15.65%;
+    bottom: 0;
+}
+
+.content h2 {
+    max-width: 60%;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    word-spacing: 3.4px;
+    color: #fff;
+}
+
+.vacancy-section {
+    margin-bottom: 30px;
+}
+
+.vacancy-section p {
+    letter-spacing: 0.5px;
+    color: #75c8d2;
+}
+
+.vacancy-section p:not(:last-child) {
+    margin: 0;
+}
+
+.vacancy-section h3 {
+    color: #fff;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+h3.green {
+    color: #8dc63f;
+    font-weight: bold;
+}
+
+.vacancy-section h3,
+.vacancy-section p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content input {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content .top input {
+    display: block;
+    border: none;
+    width: 379px;
+    padding: 17px 30px;
+}
+
+.content .top .button {
+    font-size: 24px;
+    line-height: 24px;
+    background: #8dc63f;
+    height: auto;
+    width: 50px;
+    border-radius: 0;
+}
+
+.content .button.scroll-down {
+    position: absolute;
+    left: 46.5%;
+    bottom: 50px;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.content .control.has-addons .button:last-child {
+    border-radius: 0;
+}
+
+.content .button .icon:first-child,
+.content .button .icon:last-child {
+    margin: 0;
+}
+
+.content .bottom .button {
+    background: #75c8d2;
+    width: 54px;
+    height: 54px;
+}
+
+.content .bottom {
+    position: absolute;
+    right: -15px;
+    bottom: 48px;
+}
+
+.content .bottom input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.content .bottom input::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.content .bottom input {
+    width: auto;
+    cursor: pointer;
+    width: 138px;
+    padding: 16px 20px;
+    border: 1px solid #75c8d2;
+    border-right: #fff;
+    background: rgba(0, 0, 0, 0.1);
 }
